@@ -1,0 +1,28 @@
+
+    
+    
+@mixin wideEnough($colNumber){
+    
+    
+    width:(100%/$colNumber);
+    
+    
+    
+    
+}
+
+.col2{
+    
+    @include wideEnough(2);
+}
+
+.col3{
+    
+    @include wideEnough(3);
+}
+
+.col4{
+    
+    @nclude wideEnough(4);
+    
+}
